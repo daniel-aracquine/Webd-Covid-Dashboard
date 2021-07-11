@@ -72,11 +72,11 @@
         <div class="middle-div">
           <div class="statewise-cases-div">
             <p>Check State-wise Covid cases here: <span id="span1">Total_Cases Recovered Deceased</span> </p>
-            <form >
+            <form class="" onsubmit="stateData();return false" action="#">
               <label for="">Enter state name:</label>
-              <input type="text"  id="state-name">
+              <input type="text" id="state-name">
 
-              <button onclick="stateData()" type="submit" name="button">Submit</button>
+              <button onclick="stateData()" type="button">Submit</button>
               <span class="s1">
                 <span class="s-class1" id="s-total"></span>
                 <span class="s-class1" id="s-recovered"></span>
